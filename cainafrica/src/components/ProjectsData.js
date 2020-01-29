@@ -1,7 +1,7 @@
 // import coloredlogo from '../images/coloredlogo.png'
 import CainIjegun3Girls from '../images/ProjectsData/CainIjegun3Girls.JPG'
 import CainBridgingTheGap from '../images/ProjectsData/CainBridgingTheGap.jpg';
-import CainLibrary2 from '../images/ProjectsData/CainLibrary2.png';
+import CainLibrary2 from '../images/ProjectsData/CainLibrary2.jpg';
 import Akaeze2019 from '../images/ProjectsData/Akaeze2019.jpg';
 import CAINSP20172 from '../images/ProjectsData/CAINSP20172.JPG';
 

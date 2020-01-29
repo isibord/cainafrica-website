@@ -91,19 +91,19 @@ import CainGallery88 from '../images/Gallery/CainGallery88.jpg';
 
 import CAINSP20171 from '../images/ProjectsData/CAINSP20171.JPG';
 import CAINSP20172 from '../images/ProjectsData/CAINSP20172.JPG';
-import CAINBtG1 from '../images/ProjectsData/CAINBtG1.jpeg';
-import CAINBtG2 from '../images/ProjectsData/CAINBtG2.jpeg';
-import CAINBtG3 from '../images/ProjectsData/CAINBtG3.jpeg';
-import CAINBtG4 from '../images/ProjectsData/CAINBtG4.jpeg';
-import CAINBtG6 from '../images/ProjectsData/CAINBtG6.jpeg';
-import CAINBtG7 from '../images/ProjectsData/CAINBtG7.jpeg';
-import CAINBtG8 from '../images/ProjectsData/CAINBtG8.jpeg';
-import CAINBtG9 from '../images/ProjectsData/CAINBtG9.jpeg';
-import CAINBtG10 from '../images/ProjectsData/CAINBtG10.png';
-import CAINBtG11 from '../images/ProjectsData/CAINBtG11.jpeg';
+import CAINBtG1 from '../images/ProjectsData/CAINBtG1.jpg';
+import CAINBtG2 from '../images/ProjectsData/CAINBtG2.jpg';
+import CAINBtG3 from '../images/ProjectsData/CAINBtG3.jpg';
+import CAINBtG4 from '../images/ProjectsData/CAINBtG4.jpg';
+import CAINBtG6 from '../images/ProjectsData/CAINBtG6.jpg';
+import CAINBtG7 from '../images/ProjectsData/CAINBtG7.jpg';
+import CAINBtG8 from '../images/ProjectsData/CAINBtG8.jpg';
+import CAINBtG9 from '../images/ProjectsData/CAINBtG9.jpg';
+import CAINBtG10 from '../images/ProjectsData/CAINBtG10.jpg';
+import CAINBtG11 from '../images/ProjectsData/CAINBtG11.jpg';
 import CAINERC1 from '../images/ProjectsData/CAINERC1.JPG';
 import CAINERC2 from '../images/ProjectsData/CAINERC2.jpg';
-import CAINBtG5 from '../images/ProjectsData/CAINBtG5.jpeg';
+import CAINBtG5 from '../images/ProjectsData/CAINBtG5.jpg';
 
 const PhotoBox = styled.div`
     margin: 2rem auto;
@@ -152,8 +152,6 @@ class Demo4 extends React.Component {
                         </div>);
                     return i;
                 });
-
-
         return (
             <div>
                 <TopImage style={{backgroundImage: `url(${GalleryHeader3})`}}>

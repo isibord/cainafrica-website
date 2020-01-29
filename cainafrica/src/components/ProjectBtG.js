@@ -1,8 +1,8 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
-import CAINBtG5 from '../images/ProjectsData/CAINBtG5.jpeg';
-import CAINBtG10 from '../images/ProjectsData/CAINBtG10.png';
+import CAINBtG5 from '../images/ProjectsData/CAINBtG5.jpg';
+import CAINBtG10 from '../images/ProjectsData/CAINBtG10.jpg';
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
 
 const ProjectBtG = (props) => {

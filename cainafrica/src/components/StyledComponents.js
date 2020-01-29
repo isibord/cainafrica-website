@@ -1,12 +1,12 @@
 import  { Link } from "react-router-dom";
 import styled from 'styled-components';
 import OurMissionParagraph2 from '../images/Our Mission/OurMissionParagraph2.JPG';
-import RukeAsagba from '../images/Our Team/RukeAsagba.png';
-import OlatomiwaLasebikan from '../images/Our Team/OlatomiwaLasebikan.png';
+import RukeAsagba from '../images/Our Team/RukeAsagba.jpg';
+import OlatomiwaLasebikan from '../images/Our Team/OlatomiwaLasebikan.jpg';
 import DaisyIsibor from '../images/Our Team/DaisyIsibor.jpg';
 import MoyosoreoluwaOrekoya from '../images/Our Team/MoyosoreoluwaOrekoya.jpg';
-import TitilayoOlowoniyi from '../images/Our Team/TitilayoOlowoniyi.png';
-import EricAsagba from '../images/Our Team/EricAsagba.png';
+import TitilayoOlowoniyi from '../images/Our Team/TitilayoOlowoniyi.jpg';
+import EricAsagba from '../images/Our Team/EricAsagba.jpg';
 
 export const TopImage = styled.div`
     margin: 0 auto;
@@ -429,6 +429,7 @@ export const Position = styled.h2`
 export const Bio = styled.p`
     text-align:left;
     color: black;
+    
 `
 export const Moyo = styled.div`
     width:100%;

@@ -10,6 +10,7 @@ const TopImage = styled.div`
     height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
+    background-image: url(${TopBackground2});
     background-size: cover;
     position: relative;
     display:-webkit-box;
@@ -24,7 +25,7 @@ const TopImage = styled.div`
 
         @media (max-width: 768px) {
             justify-content: space-between;
-            height: 30rem;
+            height: 96vh;
         }
 `
 const TextWrapper = styled.div`
@@ -42,7 +43,7 @@ const TextWrapper = styled.div`
 const Home = (props) => {
     return(
         <div>
-            <TopImage style={{backgroundImage: `url(${TopBackground2})`}}>
+            <TopImage>
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>

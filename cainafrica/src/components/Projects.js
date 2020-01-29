@@ -4,7 +4,7 @@ import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OuterDiv, KeyDiv, IndividualCard,TextBodyWrapper,ButtonLink, PostLink, FilterButtonLeft, FilterButtonMid, FilterButtonRight, FilterWrapper } from './StyledComponents.js';
 import ProjectData from './ProjectsData'; //Import Object data to loop over.
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
-import NoProjects from '../images/ProjectsData/NoProjects.jpeg'
+import NoProjects from '../images/ProjectsData/NoProjects.jpg'
 
 const ProjectImage = styled.img`
     margin:auto;
@@ -111,7 +111,6 @@ const Projects = (props) => {
                                 <h4 style={{margin: '1rem 0', height:'3rem'}}>{project.title}</h4>
                                 
                                 <p style={{margin: '1rem 0'}}>
-                                    {/* {shortenText(project.description,0,300)+'...'}  */}
                                     {project.description}
                                 </p> 
                                 <PostLink to={`${project.link}`}>

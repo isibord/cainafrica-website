@@ -41,12 +41,12 @@ const MeetTheTeam = (props) => {
                             </Position>
                             
                         </FrontSide>
-                        <BackSide style={{backgroundColor: '#f4e4ba'}} >
+                        <BackSide style={{backgroundColor: '#f4e4ba', overflow: 'auto'}} >
                             
                             <Bio>
                                 Ruke was born and raised in Lagos, Nigeria. She has a bachelor's degree in Human Biology, Health and Society, and a minor in Global Health from Cornell University.  She also holds a master’s degree in Medical Physiology from Case Western Reserve University and is a medical doctor in training. <br/> <br/>                              
                                 Thus far, Ruke has conducted research on the National Health Research Act of Zambia and conducted clinical research at University Hospitals in Cleveland, Ohio. She has also served as a student health ambassador for the HBCU wellness program, and as a tutor and mentor in different capacities. Her passion for education and healthcare is intense, which is why she founded CAIN. <br/><br/> She envisions Africa as a continent that provides access to quality education and healthcare for all. Thus, she hopes to contribute to the fulfillment of this vision by engaging future leaders in projects that combat inequities in education and healthcare. <br/><br/>
-                                It’s a great pleasure to have a Founder/President who leads by example and gives her best to ensure that we make a tremendous impact. 
+                                It’s a great pleasure to have a Founder/President who leads by example and gives her best to ensure that we make a tremendous impact.
                             </Bio>
 
                         </BackSide>
@@ -70,7 +70,7 @@ const MeetTheTeam = (props) => {
                             </Position>
 
                         </FrontSide>
-                        <BackSide style={{backgroundColor: '#f4e4ba'}}>
+                        <BackSide style={{backgroundColor: '#f4e4ba', overflow: 'auto'}}>
                             
                             <Bio>
                                 Tomiwa obtained his Bachelor’s degree in Computer Science and Mathematics from Fisk University after which he worked as a Software Engineer at Microsoft. <br/> <br/> He currently leads Product Development in a startup in Nigeria, BuyCoins. Tomiwa recognizes the challenges of healthcare and education - especially among children and the youth - in the building of African economies and talent. He believes in the power of technology and awareness of local context to solve these problems. <br/> <br/> Tomiwa currently serves as our Vice-President and has relentlessly served CAIN since its inception. We are really grateful to have him on board because he is always willing to take on responsibilities even outside his areas of expertise and is indeed the true definition of a servant leader. 
@@ -97,7 +97,7 @@ const MeetTheTeam = (props) => {
 
                         </FrontSide>
                         
-                        <BackSide style={{backgroundColor: '#f4e4ba'}}>
+                        <BackSide style={{backgroundColor: '#f4e4ba', overflow: 'auto'}}>
 
                             <Bio>
                                 Daisy is currently a Software Engineer in the greater Seattle area.<br/> <br/> She is passionate about technology, education and mentoring. She is always in pursuit of ways to enlighten herself and encourages other young people to do the same. Daisy leads our communications and operations in addition to the other hats she wears. <br/> <br/>We are beyond excited to have her on board because she has a knack for getting things done and pushing other members of the team to do so too. For her, professionalism is key and we love the way she infuses that mindset across the board.
