@@ -35,9 +35,9 @@ const OurMission = (props) => {
                 <MidParagraphOne>
                     <h2 style={{margin:'0.5rem', fontSize: '1.25rem'}}>OUR MISSION</h2>
                     
-                    <h4 style={{color:'#d8aa35',margin:'0.5rem', fontSize: '1.25rem'}}>Our mission is to provide quality education to the less privileged in impoverished African societies.</h4>
+                    <h4 style={{color:'#d8aa35',margin:'0.5rem', fontSize: '1.25rem'}}>Our mission is to provide quality education and healthcare to the less privileged in impoverished African societies.</h4>
                     
-                    <p style={{margin:'0.5rem', fontSize: '1.25rem'}}>CAIN (Catering to Africans In Need) is a 501(c)(3) non-profit organization established in 2013 by young adults who are very passionate about helping the less privileged in Africa. At the heart of this foundation is the belief that everyone should have access to quality education regardless of socioeconomic status.</p>
+                    <p style={{margin:'0.5rem', fontSize: '1.25rem'}}>CAIN (Catering to Africans In Need) is a 501(c)(3) non-profit organization established in 2013 by young adults who are very passionate about helping the less privileged in Africa. Our main target areas are healthcare and education. At the heart of this foundation is the belief that everyone should have access to quality education and healthcare regardless of socioeconomic status.</p>
                 </MidParagraphOne>
                 <PostIframe width="560" height="315" src="https://www.youtube.com/embed/pvpD_hIAqrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
                 {/* <MidParagraphTwo /> */}
