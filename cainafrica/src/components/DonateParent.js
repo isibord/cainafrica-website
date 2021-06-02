@@ -64,7 +64,7 @@ const DonateParent = (props) => {
                             <DonateCardTextWrapper>
                                 <h2>Donate in Nigeria with paystack</h2>
                                 <p> 
-                                    We are currently unable to meet certain requirements by paystack so to donate in Nigeria, you can make a direct transfer to our Nigerian account using the following information:
+                                    Paystack information is unavailable at this time. You can make a direct transfer to our Naira account using the following information:
                                 </p>
                                 <table>
                                     <tr>
