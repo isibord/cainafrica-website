@@ -12,7 +12,7 @@ import DonateHeader2 from '../images/Donate/DonateHeader2.JPG'
 const ContentImage = styled.div`
     margin: 0 auto;
     width: 60%;
-    height: 91rem;
+    height: 107rem;
     background-image: url(${Donate3});
     background-position: right;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ const DonateParent = (props) => {
                                     Please donate by clicking the button below that would link you to our PayPal account
                                 </p>
                                 <Button> 
-                                    <NavLink href= 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q6WDVHX8W873U' target="_blank">
+                                    <NavLink href= 'https://www.paypal.com/donate?hosted_button_id=SGG2UVLMRTH56' target="_blank">
                                         Donate
                                     </NavLink>                                    
                                 </Button>
@@ -64,13 +64,22 @@ const DonateParent = (props) => {
                             <DonateCardTextWrapper>
                                 <h2>Donate in Nigeria with paystack</h2>
                                 <p> 
-                                    Please donate through our payment processor, Paystack by clicking the button below.
+                                    Paystack information is unavailable at this time. You can make a direct transfer to our Naira account using the following information:
                                 </p>
-                                <Button>
-                                    <NavLink href='https://paystack.com/pay/cain' target="_blank">
-                                        Donate
-                                    </NavLink>                                    
-                                </Button>
+                                <table>
+                                    <tr>
+                                        <td><strong>Account Name</strong></td>
+                                        <td>CAIN Educational and Medical Foundation</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Account Number</strong></td>
+                                        <td>1019225521</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Bank Name</strong></td>
+                                        <td>United Bank for Africa (UBA)</td>
+                                    </tr>
+                                </table>
                             </DonateCardTextWrapper>
                         </IndividualPaymentsCard>
 

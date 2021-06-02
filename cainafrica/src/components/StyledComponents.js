@@ -515,6 +515,7 @@ export const PayCardDiv = styled.div`
     }
 `
 export const IndividualPaymentsCard = styled.div`
+margin: 1rem auto;
 width: 19rem;
 background-color:white;
 padding: 1rem;
