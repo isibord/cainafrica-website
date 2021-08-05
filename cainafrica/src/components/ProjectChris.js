@@ -12,8 +12,6 @@ import {
   PostImage,
   MediaWrapper,
   SingleImage,
-  PostIframe,
-  PostIframeWrapper,
 } from "./StyledComponents.js";
 import CAINASRP20191 from "../images/christmas/IMG2.JPG";
 import CHRISTMAS1 from "../images/christmas/IMG4.jpg";

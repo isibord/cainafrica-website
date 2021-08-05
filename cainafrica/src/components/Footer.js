@@ -69,12 +69,6 @@ const Logo = styled.img`
     display: none;
   }
 `;
-const OrgType = styled.p`
-  @media (max-width: 768px) {
-    margin: auto;
-    width: 90%;
-  }
-`;
 
 const Footer = () => {
   return (

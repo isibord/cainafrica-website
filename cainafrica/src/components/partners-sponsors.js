@@ -68,10 +68,6 @@ const PartnersSponsors = (props) => {
     setData(PartenersSponsorsData);
   };
 
-  let scrollToTop = () => {
-    window.scrollTo({ top: 500, behavior: "smooth" });
-  };
-
   return (
     <div>
       <TopImage
