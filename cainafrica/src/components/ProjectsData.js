@@ -1,9 +1,10 @@
 // import coloredlogo from '../images/coloredlogo.png'
 import CainIjegun3Girls from '../images/ProjectsData/CainIjegun3Girls.JPG'
 import CainBridgingTheGap from '../images/ProjectsData/CainBridgingTheGap.jpg';
-import CainLibrary2 from '../images/ProjectsData/CainLibrary2.jpg';
+import CainLibrary2 from '../images/resource_center/CPL.jpg';
 import Akaeze2019 from '../images/ProjectsData/Akaeze2019.jpg';
 import CAINSP20172 from '../images/ProjectsData/CAINSP20172.JPG';
+import Christmas from "../images/christmas/IMG4.jpg";
 
 const ProjectData = [
     {   
@@ -32,7 +33,7 @@ const ProjectData = [
     },
     {   
         index: 4,
-        title: "CAIN Summer Tutorial Program",
+        title: "CAIN Weekly Tutorial Program",
         image: `${CAINSP20172}`,
         description: "This program is one of the key areas of intervention of the CAIN Scholars’ Program, which is aimed at helping children from low-income families in Ikotun/Igando local government area gain access to quality educational resources, educational enhancement programs and equip them with skills to become globally competitive.",
         status: "Ongoing",
@@ -45,7 +46,16 @@ const ProjectData = [
         description: "Imagine children aged 9-16 dissecting literature, debating about social issues, learning and unlearning social norms while developing oratory and writing skills. This program is one that achieves these and more. Since inception, it has been greeted with wide acclaim, and has become an annual program hosted at our educational center.",
         status: "Ongoing",
         link: "/projects/Akaeze-Summer-Program"
-    }
+    },
+    {
+    index: 6,
+    title: "Christmas Benevolence Project ",
+    image: `${Christmas}`,
+    description:
+      "This is an initiative borne out of our desire to help and support the less fortunate members of underprivileged communities during the Christmas festive season. It's a benevolence project aimed at providing food and other gift items to indigent families during Christmas. The maiden edition of this program took place in December 2020.",
+    status: "Completed",
+    link: "/projects/Christmas-Benevolence-Project",
+  },
 ]
 
 export default ProjectData;

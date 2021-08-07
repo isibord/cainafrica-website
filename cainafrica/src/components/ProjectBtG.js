@@ -1,9 +1,11 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
-import CAINBtG5 from '../images/ProjectsData/CAINBtG5.jpg';
-import CAINBtG10 from '../images/ProjectsData/CAINBtG10.jpg';
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
+import newJeida01 from "../images/Jeida/BPC.jpg";
+import newJeida02 from "../images/Jeida/CHP.jpg";
+import newJeida03 from "../images/Jeida/VCC.jpg";
+import newJeida04 from "../images/Jeida/Clinic.jpg";
 
 const ProjectBtG = (props) => {
 
@@ -30,15 +32,31 @@ const ProjectBtG = (props) => {
                     
                 </PostWrapper>
                 
-                <MediaWrapper >
-                    <SingleImage>
-                        <PostImage src={`${CAINBtG5}`}/>
-                        <i style={{padding: '1rem 0'}}>The clinic after final completion of the internal fittings.</i>
-                    </SingleImage>  
-                    <SingleImage>
-                        <PostImage src={`${CAINBtG10}`}/>
-                        <i style={{padding: '1rem 0',width:'95%'}}>Trained Community Health Workers</i>
+                <MediaWrapper>
+                   <SingleImage>
+                        <PostImage src={`${newJeida04}`} />
+                        <i style={{ padding: "1rem 0", width: "95%" }}>
+                        The clinic after final completion of the internal fittings.
+                        </i>
                     </SingleImage>
+                    <SingleImage>
+                        <PostImage src={`${newJeida01}`} />
+                        <i style={{ padding: "1rem 0", width: "95%" }}>
+                        Ongoing humanitarian work at the clinic
+                        </i>
+                    </SingleImage>
+                    <SingleImage>
+                        <PostImage src={`${newJeida02}`} />
+                        <i style={{ padding: "1rem 0", width: "95%" }}>
+                        Ongoing humanitarian work at the clinic
+                        </i>
+                    </SingleImage>
+                    <SingleImage>
+                        <PostImage src={`${newJeida03}`} />
+                        <i style={{ padding: "1rem 0", width: "95%" }}>
+                        Ongoing humanitarian work at the clinic
+                        </i>
+                    </SingleImage> 
                 </MediaWrapper>
             </OverallWrapper>
 

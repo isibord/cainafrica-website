@@ -25,3 +25,42 @@ td, th {
 tr:nth-child(even) {
   background-color: #d8aa35;
 }
+
+.donate_button {
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 190px;
+  text-decoration: none;
+}
+
+.donate_button:hover {
+  background: #008168;
+}
+
+.donate_button:active {
+  background: #006e58;
+}
+
+.donate_button__text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+  font-size: xx-large;
+}
+
+.donate_button__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
