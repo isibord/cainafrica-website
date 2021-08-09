@@ -86,6 +86,7 @@ const Footer = () => {
                     <h2>CONTACT US</h2>
                      <p style={{ marginTop: 0, marginBottom: "8px" }}>info@cainafrica.org</p>
                      <p style={{ marginTop: 0, marginBottom: "8px" }}>+2347049879535</p>
+                     <div className="social-icons"> 
                     <InlineFollowButtons //From sharethis-reactjs Library
                         config={{
                         action: "Follow us:", // call to action (STRING)
@@ -116,6 +117,7 @@ const Footer = () => {
                         spacing: 12, // the spacing between buttons (INTEGER)
                         }}
                     />
+                    </div>
                     <p style={{ marginBottom: 0 }}>Subscribe to our<strong>
                         <a
                             href="http://eepurl.com/dyu7RL"
