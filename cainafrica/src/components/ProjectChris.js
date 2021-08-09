@@ -45,15 +45,15 @@ const ProjectChris = (props) => {
           <PostParagraph>
             <br />
             This is an initiative borne out of our desire to help and support
-            the less fortunate members of underprivileged communities during the
-            Christmas festive season. It's a benevolence project aimed at
-            providing food and other gift items to indigent families during
-            Christmas. The maiden edition of this program took place in December
-            2020 and it was tagged The 50/50 Campaign. Donors were invited to
-            participate by donating up to $50 to support 50 families with food
-            items and Covid-19 sanitary materials. The programme was well
-            planned and implemented and beneficiaries were carefully selected
-            from the Ikotun/Igando community based on certain socio-economic
+            the less priviledged members of the community during the Christmas
+            festive season. It's a benevolence project aimed at providing food
+            and other gift items to indigent families during Christmas. The
+            maiden edition of this program took place in December 2020 and it
+            was tagged The 50/50 Campaign. Donors were invited to participate by
+            donating up to $50 to support 50 families with food items and
+            Covid-19 sanitary materials. The programme was well planned and
+            implemented and beneficiaries were carefully selected from the
+            Ikotun/Igando community based on certain socio-economic
             vulnerability indicators. The program was a huge success as all the
             50 target beneficiaries were reached and immensely supported. Like
             some of our key programs, our aim is to make this an annual event.

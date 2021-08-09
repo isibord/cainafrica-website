@@ -52,7 +52,7 @@ const ProjectData = [
     title: "Christmas Benevolence Project ",
     image: `${Christmas}`,
     description:
-      "This is an initiative borne out of our desire to help and support the less fortunate members of underprivileged communities during the Christmas festive season. It's a benevolence project aimed at providing food and other gift items to indigent families during Christmas. The maiden edition of this program took place in December 2020.",
+      "This is an initiative borne out of our desire to help and support the less priviledged members of the community during the Christmas festive season. It's a benevolence project aimed at providing food and other gift items to indigent families during Christmas. The maiden edition of this program took place in December 2020.",
     status: "Completed",
     link: "/projects/Christmas-Benevolence-Project",
   },
