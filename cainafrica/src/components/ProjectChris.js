@@ -13,10 +13,7 @@ import {
   MediaWrapper,
   SingleImage,
 } from "./StyledComponents.js";
-import CAINASRP20191 from "../images/christmas/IMG2.JPG";
 import CHRISTMAS1 from "../images/christmas/IMG4.jpg";
-import CHRISTMAS2 from "../images/christmas/IMG1.JPG";
-import CHRISTMAS3 from "../images/christmas/IMG3.JPG";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
 
 const ProjectChris = (props) => {
@@ -62,16 +59,7 @@ const ProjectChris = (props) => {
 
         <MediaWrapper>
           <SingleImage>
-            <PostImage src={`${CAINASRP20191}`} />
-          </SingleImage>
-          <SingleImage>
-            <PostImage src={`${CHRISTMAS3}`} />
-          </SingleImage>
-          <SingleImage>
             <PostImage src={`${CHRISTMAS1}`} />
-          </SingleImage>
-          <SingleImage>
-            <PostImage src={`${CHRISTMAS2}`} />
           </SingleImage>
         </MediaWrapper>
       </OverallWrapper>

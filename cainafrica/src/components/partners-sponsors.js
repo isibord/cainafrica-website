@@ -14,7 +14,7 @@ import sp1 from "../images/PS/CLINTON GLOBAL INITIATIVE UNIVERSITY.jpg";
 import sp2 from "../images/PS/CORNELL UNIVERSITY.png";
 import sp3 from "../images/PS/DAVIS PROJECT FOR PEACE.png";
 import sp4 from "../images/PS/GATES VENTURES.jpg";
-import sp5 from "../images/PS/GIANFORTE FAMLY FOUNDATION.png";
+import sp5 from "../images/PS/crossbonds.jpg";
 import sp6 from "../images/PS/MICROSOFT.jpg";
 
 const PartenersSponsorsData = [
@@ -50,6 +50,7 @@ const SponsorsImage = styled.img`
   width: auto;
   max-width: 20rem;
   height: 10rem;
+  padding: 2rem;
   @media (max-width: 320px) {
     margin: 0rem;
     width: 10rem;

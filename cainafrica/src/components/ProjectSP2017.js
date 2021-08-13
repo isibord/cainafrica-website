@@ -3,9 +3,7 @@ import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage, PostIframe, PostIframeWrapper} from './StyledComponents.js';
 import CAINSP20172 from '../images/ProjectsData/CAINSP20172.JPG';
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
-import summerImage1 from "../images/Tutorial/ESC_1.jpg";
 import summerImage2 from "../images/Tutorial/FNS.jpg";
-import summerImage3 from "../images/Tutorial/MJC_1.jpg";
 
 
 const ProjectSP2017 = (props) => {
@@ -65,19 +63,7 @@ const ProjectSP2017 = (props) => {
                         <i style={{padding: '1rem 0'}}>CAIN Tutorial Class at its inception in 2017</i>
                     </SingleImage>
                     <SingleImage>
-                        <PostImage src={`${summerImage1}`} />
-                        <i style={{ padding: "1rem 0" }}>
-                        Students and Tutors from the CAIN Weekly Tutorial Program.
-                        </i>
-                    </SingleImage>
-                    <SingleImage>
                         <PostImage src={`${summerImage2}`} />
-                        <i style={{ padding: "1rem 0" }}>
-                        Students and Tutors from the CAIN Weekly Tutorial Program.
-                        </i>
-                    </SingleImage>
-                    <SingleImage>
-                        <PostImage src={`${summerImage3}`} />
                         <i style={{ padding: "1rem 0" }}>
                         Students and Tutors from the CAIN Weekly Tutorial Program.
                         </i>

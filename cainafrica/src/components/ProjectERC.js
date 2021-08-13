@@ -135,21 +135,24 @@ const ProjectERC = (props) => {
                     <PostIframeWrapper>
                         <PostIframe src="https://www.youtube.com/embed/QVSKpP0dfWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen" frameBorder="0"></PostIframe>
                     </PostIframeWrapper>
-                    
                     <SingleImage>
                         <PostImage src={`${CAINERC1}`} />
-                        <i style={{padding: '1rem 0'}}>Property purchased to serve as the educational resource center.</i>
+                        <i style={{padding: '1rem 0'}}>
+Property purchased to serve as the Educational Resource Center.
+                          </i>
                     </SingleImage>                  
                     
                     <SingleImage>
                         <PostImage src={`${CAINERC2}`} />
-                        <i style={{padding: '1rem 0'}}>Current state of educational resource center after internal renovations and painting.</i>
+                        <i style={{padding: '1rem 0'}}>                        The Educational Resource Center during internal renovations and
+              painting
+                        </i>
                     </SingleImage>
                     <SingleImage>
                         <PostImage src={`${CAINERC3}`} />
                         <i style={{ padding: "1rem 0" }}>
-                        Current state of educational resource center after internal
-                        renovations and painting.
+Current state of the Educational Resource Center after internal
+              renovations and painting.
                         </i>
                     </SingleImage>
                 </MediaWrapper>

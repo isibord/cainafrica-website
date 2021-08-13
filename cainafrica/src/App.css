@@ -30,7 +30,7 @@ tr:nth-child(even) {
   display: flex;
   height: 50px;
   padding: 0;
-  background: #009578;
+  background: red;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -41,14 +41,15 @@ tr:nth-child(even) {
   cursor: pointer;
   width: 190px;
   text-decoration: none;
+  justify-content: center;
 }
 
 .donate_button:hover {
-  background: #008168;
+  background: red;
 }
 
 .donate_button:active {
-  background: #006e58;
+  background: red;
 }
 
 .donate_button__text {

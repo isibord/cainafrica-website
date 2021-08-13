@@ -86,7 +86,7 @@ const Footer = () => {
                     <h2>CONTACT US</h2>
                      <p style={{ marginTop: 0, marginBottom: "8px" }}>info@cainafrica.org</p>
                      <p style={{ marginTop: 0, marginBottom: "8px" }}>+2347049879535</p>
-                     <div className="social-icons"> 
+                     <div className="social-icons" style={{ display: 'flex', alignItems: "center"}}> 
                     <InlineFollowButtons //From sharethis-reactjs Library
                         config={{
                         action: "Follow us:", // call to action (STRING)
@@ -102,6 +102,7 @@ const Footer = () => {
                             "instagram",
                             "linkedin",
                             "youtube",
+                            'github',
                         ],
                         padding: 8, // padding within buttons (INTEGER)
                         profiles: {
@@ -111,12 +112,20 @@ const Footer = () => {
                             instagram: "cainafrica",
                             linkedin: "company/catering-to-africans-in-need/",
                             youtube: "/channel/UCFI55OCmrLlN28M5wDPBNxQ",
+                            github: "isibord",
                         },
                         radius: 15, // the corner radius on each button (INTEGER)
                         size: 32, // the size of each button (INTEGER)
-                        spacing: 12, // the spacing between buttons (INTEGER)
+                        spacing: 5, // the spacing between buttons (INTEGER)
                         }}
                     />
+            <a href="https://api.whatsapp.com/send?phone=2347049879535">
+              <img
+                src="https://img.icons8.com/color/35/000000/whatsapp--v1.png"
+                style={{ cursor: "pointer" }}
+                alt="whatsapp-icon"
+              />
+            </a>
                     </div>
                     <p style={{ marginBottom: 0 }}>Subscribe to our<strong>
                         <a
