@@ -18,7 +18,7 @@ import ProjectERC from './components/ProjectERC';
 import ProjectSP2017 from './components/ProjectSP2017';
 import ProjectASRP2019 from './components/ProjectASRP2019';
 import ProjectChristmas from "./components/ProjectChris";
-import PartnersSponsors from "./components/partners-sponsors";
+// import PartnersSponsors from "./components/partners-sponsors";
 
 import DonateParent from './components/DonateParent';
 
@@ -118,7 +118,7 @@ const App = () => {
             path='/donate' 
             render = {(props)=> <DonateParent {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
-          <Route
+          {/* <Route
             path="/partners-sponsors"
             render={(props) => (
               <PartnersSponsors
@@ -127,7 +127,7 @@ const App = () => {
                 sideDrawer={sideDrawer}
               />
             )}
-          />
+          /> */}
           <Route path='/' 
             render = {(props)=> <Home {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />

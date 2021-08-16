@@ -17,9 +17,9 @@ const sideDrawer = props => (
                 <li>
                     <Link onClick={props.closeDrawer} to="/projects">Projects</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/partners-sponsors">Partners & Sponsors</Link>
-                </li>
+                </li> */}
                 <span >
                     <span>
                         <li>

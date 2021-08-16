@@ -41,7 +41,7 @@ const ProjectChris = (props) => {
           <PostHeader>Christmas Benevolence Project </PostHeader>
           <PostParagraph>
             <br />
-            This is an initiative borne out of our desire to help and support
+            This is an initiative born out of our desire to help and support
             the less priviledged members of the community during the Christmas
             festive season. It's a benevolence project aimed at providing food
             and other gift items to indigent families during Christmas. The
