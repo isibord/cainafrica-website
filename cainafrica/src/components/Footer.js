@@ -102,7 +102,7 @@ const Footer = () => {
                             "instagram",
                             "linkedin",
                             "youtube",
-                            'github',
+                            'vk',
                         ],
                         padding: 8, // padding within buttons (INTEGER)
                         profiles: {
@@ -112,7 +112,7 @@ const Footer = () => {
                             instagram: "cainafrica",
                             linkedin: "company/catering-to-africans-in-need/",
                             youtube: "/channel/UCFI55OCmrLlN28M5wDPBNxQ",
-                            github: "isibord",
+                            vk: "placeholder",
                         },
                         radius: 15, // the corner radius on each button (INTEGER)
                         size: 32, // the size of each button (INTEGER)
