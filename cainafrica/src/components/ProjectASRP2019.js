@@ -22,13 +22,57 @@ const ProjectASRP2019 = (props) => {
             
             <OverallWrapper>
                 <PostWrapper>
-                    <PostHeader>Akaeze Summer Reading Program 2018</PostHeader>
+                    <PostHeader>Akaeze Summer Reading Program</PostHeader>
                     <PostParagraph> <i>“Reading is essential for those who seek to rise above the ordinary.” <strong>– Jim Rohn</strong></i> <br/><br/>
-                    The purpose of this program is to help students cultivate a reading habit and develop critical thinking and communication skills. This program ran from August 11th to September 8th, 2018. The 2018 program was a pilot program because we wanted to create an engaging annual reading program to help students develop their reading, writing and speaking skills and at the same time, educate them on local and global issues. To our surprise, our pupils were so engaged in the discussions that we had to plead with them to take their lunch breaks even though we served very sumptuous meals. <br/><br/>
- 
-                    The Akaeze Reading program has four components: Reading, Discussions, Vocabulary and Essay writing. The book of choice was Things Fall Apart by Chinua Achebe and the discussions centered around gender roles, domestic violence and toxic masculinity, using examples from the book. We also created opportunities for our students to build their vocabulary and writing skills through vocabulary quizzes and essay writing. To round off the program, we gave two awards - one to the most active student and the other to the student with the best essay. In addition, every student not only received a copy of Things Fall Apart but also received school supplies to prepare them for the next school session.  <br/><br/>
-  
-                    What we achieved with this program was phenomenal. Our students left with a deep understanding of why domestic violence should not be condoned. Our girls left with greater confidence that they were equal to their male counterparts and our boys became conscious of how to prevent toxic masculinity. In light of these achievements, the Akaeze summer reading program will be one of the main annual programs hosted at our educational resource center. We are excited to continue to use this medium to educate the next generation and build people with superb character. 
+                    The Akaeze Reading program has four components: Reading,
+            Discussions, Vocabulary and Essay writing. The purpose of this
+            program is to help students cultivate a reading habit and develop
+            critical thinking and communication skills. The maiden edition of
+            this program took place from August 11 to September 8, 2018. The
+            book of choice was Things Fall Apart by Chinua Achebe and the
+            discussions centered around gender roles, domestic violence and
+            toxic masculinity, using references from the book. We also created
+            opportunities for our students to build their vocabulary and writing
+            skills through vocabulary quizzes and essay writing. To our
+            surprise, our pupils were so engaged in the discussions that we had
+            to plead with them to take their lunch breaks even though we served
+            very sumptuous meals. To round off the program, we gave two awards -
+            one to the most active student and the other to the student with the
+            best essay. In addition, every student not only received a copy of
+            Things Fall Apart but also received school supplies to prepare for
+            the next school session.
+            <br></br>
+            <br></br>
+            What we achieved with this program was phenomenal. Our students left
+            with a deep understanding of why domestic violence should not be
+            condoned. Our girls left with greater confidence that they were
+            equal to their male counterparts and our boys became conscious of
+            how to prevent toxic masculinity. In light of these achievements,
+            the Akaeze summer reading program will be one of the main annual
+            programs hosted at our educational resource center. We are excited
+            to continue to use this medium to educate the next generation and
+            build people with superb character.
+            <br></br>
+            <br></br>
+            At the 2019 edition, the literature of choice was “Dear Ijeawele, or
+            a Feminist Manifesto in Fifteen Suggestions” by Chimamanda Adichie.
+            We extensively discussed the concepts of feminism and sexual assault
+            and had interesting conversations about marital rape and the
+            stigmatization of sexual assault victims in Nigeria. At the end of
+            the program, our students gained a better understanding on why it’s
+            important to advocate for women’s rights, what constitutes consent,
+            and how to deal with sexual assault cases. As usual, students
+            received school supplies and we gave three awards - quiz whiz,
+            aspiring author and star student. This time around, we asked our
+            awardees what gift they would like, and they suggested we take them
+            out for lunch, games and to watch a movie. We gave them what they
+            asked for and they had a swell time.
+            <br></br>
+            <br></br>
+            Our goal is to make it an annual event that will help students
+            develop their reading, writing and speaking skills and at the same
+            time, educate them on local and global issues. Unfortunately, this
+            program did not take place in 2020 due to Covid 19 restrictions.
  
                     </PostParagraph>                
                 </PostWrapper>
@@ -41,20 +85,6 @@ const ProjectASRP2019 = (props) => {
                         <PostImage src={`${CAINASRP20191}`} />
                         <i style={{padding: '1rem 0'}}>Desree facilitating one of the reading groups.</i>
                     </SingleImage>
-
-                </MediaWrapper>
-
-                <br/><br/>
-                <hr style={{width:'80%'}} />
-
-                <PostWrapper>
-                    <PostHeader>Akaeze Summer Reading Program 2019</PostHeader>
-                    <PostParagraph>
-                    This year, the literature of choice was “Dear Ijeawele, or a Feminist Manifesto in Fifteen Suggestions” by Chimamanda Adichie. We extensively discussed the concepts of feminism and sexual assault and had interesting conversations about marital rape and the stigmatization of sexual assault victims in Nigeria. At the end of the program, our students gained a better understanding on why it’s important to advocate for women’s rights, what constitutes consent, and how to deal with sexual assault cases. As usual, students received school supplies and we gave three awards - quiz whiz, aspiring author and star student. This time around, we asked our awardees what gift they would like, and they suggested we take them out for lunch, games and to watch a movie. We gave them what they asked for and they had a swell time.<br/><br/> 
-                    </PostParagraph> 
-                </PostWrapper>
-                
-                <MediaWrapper>
                     <PostIframeWrapper>
                         <PostIframe  src="https://www.youtube.com/embed/bR-mgVJ8mKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
                     </PostIframeWrapper> 

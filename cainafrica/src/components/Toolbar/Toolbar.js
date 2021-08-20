@@ -33,6 +33,7 @@ return (
                 <Link to="/home">Home</Link>
                 <Link to="/mission">Mission</Link>
                 <Link to="/projects">Projects</Link>
+                {/* <Link to="/partners-sponsors">Partners & Sponsors</Link> */}
                 <span className="dropdown">
                     <span className="dropbtn">Team</span>
                     <span className="dropdown-content">

@@ -2,6 +2,7 @@ import React from 'react';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, DonateLink, SingleImage, PostImage, PostHeader, PostParagraph, PostWrapper, MediaWrapper, PostIframeWrapper, PostIframe } from './StyledComponents.js';
 import CAINERC1 from '../images/ProjectsData/CAINERC1.JPG';
 import CAINERC2 from '../images/ProjectsData/CAINERC2.jpg';
+import CAINERC3 from "../images/resource_center/CPL.jpg";
 import Toolbar from './Toolbar/Toolbar.js';
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
 
@@ -29,17 +30,53 @@ const ProjectERC = (props) => {
                     <PostHeader>CAIN Educational Resource Center</PostHeader>                
                     
                     <PostParagraph>
-                        For far too long, a good education in Nigeria has been the privilege of only those who can afford it. We believe this is a big problem. To break the cycle of poverty, we are committed to addressing what we believe is a root cause - the absence of quality education for the poor. We believe education needs to be made easily accessible and it needs to happen quickly. We are determined to proffer a solution by establishing an educational resource center to provide effective resources that will enhance intellectual development and consequently lead to self-reliance and socio-economic development.<br/><br/>
-
-                        <strong>Phase 1: Purchase</strong> <br/>            
-                        <strong>Status: Completed</strong> <br/>
-                        In 2016, we completed payments and acquired the property for the educational resource center. With generous individual donations, together with grants from Microsoft and Davis Projects for Peace, we purchased the property. <br/><br/>
-
-                        <strong>Phase 2: Renovation</strong> <br/>            <strong>Status: Completed Internal renovations but external renovations are still in progress</strong> <br/>
-                        To fund renovations, we participated in a fundraising challenge held by the Clinton Global Initiative University and raised funds through the benevity platform at Microsoft and from donors who strongly believe in our mission. Although we’ve completed internal renovations, we still need to build a security station ($5,600) and do compound concreting ($3,400).<br/><br/>
-
-                        <strong>Phase 3: Furnishing</strong> <br/>            <strong>Status: In progress</strong> <br/> 
-                        We partnered with the Africans at Microsoft community and the Nigerian Students Association at Cornell University to raise funds to commence furnishing at the educational resource center. Currently, the library, seminar room, waiting room and one classroom are being furnished. Many more rooms still need to be furnished and we need your support. By supporting this project, you can impact the lives of over 50,000 underprivileged students in Nigeria.<br/><br/>
+            Our determination to proffer a lasting solution to the void in
+            quality education plaguing poor communities has led to the
+            establishment of CAIN Educational Resource Centre in Ikotun, Lagos.
+            Through this establishment, we aim to provide effective resources
+            that will enhance intellectual development and consequently lead to
+            self-reliance and socio-economic development. This facility has:
+            <ul>
+              <li>A library</li>
+              <li>An I.C.T room</li>
+              <li>A seminar room</li>
+              <li>A large outdoor recreational space</li>
+            </ul>
+            <br />
+            <strong>Purchase</strong>
+            <br />
+            <strong>Status: Completed</strong>
+            <br />
+            In 2016, we completed payments and acquired the property for the
+            educational resource center. With generous individual donations,
+            together with grants from Microsoft and Davis Projects for Peace, we
+            purchased the property.
+            <br />
+            <br />
+            <strong>Renovation</strong> <br />
+            <strong>
+              Status: Completed Internal and External renovations
+            </strong>{" "}
+            <br />
+            To fund renovations, we participated in a fundraising challenge held
+            by the Clinton Global Initiative University and raised funds through
+            the benevity platform at Microsoft and from donors who strongly
+            believe in our mission. Although we’ve completed external
+            renovations, we still need to install electric barbed wires and
+            cameras for security purposes.
+            <br />
+            <br />
+            <strong>Furnishing</strong> <br />{" "}
+            <strong>Status: In progress</strong> <br />
+            We partnered with the Africans at Microsoft community and the
+            Nigerian Students Association at Cornell University to raise funds
+            to commence furnishing at the educational resource center.
+            Currently, the library, seminar room, waiting room and one classroom
+            are being furnished. Many more rooms still need to be furnished and
+            we need your support. By supporting this project, you can impact the
+            lives of over 50,000 underprivileged students in Nigeria.
+            <br />
+            <br />
 
                         <table>
                             <tbody>
@@ -82,7 +119,15 @@ const ProjectERC = (props) => {
                         <strong>One time/Monthly donation: </strong> 
                         Support this project by making a one-time donation or by signing up for a monthly donation. If you give ≥ $1000 during the course of one year, a program at the center will be named after you.<br/><br/>
                         <strong>Individual/Group Sponsorship of a room:</strong> Fund the furnishing and equipping of a room and get the room named after you or your organization.<br/><br/>
-                        <PostHeader onClick={scrollToTop}>  <DonateLink style={{color:"black"}} to='/donate'>  <strong>Click here to donate towards this project.</strong> </DonateLink> </PostHeader>
+                        <PostHeader onClick={scrollToTop}>  <DonateLink style={{color:"black"}} to='/donate'>  <strong>Click below to donate towards this project.</strong> 
+                        <br />
+                        <br />
+                        <DonateLink style={{ color: "black" }} to="/donate">
+                            <a href="donate.js" class="donate_button">
+                            <span class="donate_button__text">Donate</span>
+                            </a>
+                        </DonateLink>
+                        </DonateLink> </PostHeader>
                     </PostParagraph>  
                 </PostWrapper>
 
@@ -90,15 +135,25 @@ const ProjectERC = (props) => {
                     <PostIframeWrapper>
                         <PostIframe src="https://www.youtube.com/embed/QVSKpP0dfWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen" frameBorder="0"></PostIframe>
                     </PostIframeWrapper>
-                    
                     <SingleImage>
                         <PostImage src={`${CAINERC1}`} />
-                        <i style={{padding: '1rem 0'}}>Property purchased to serve as the educational resource center.</i>
+                        <i style={{padding: '1rem 0'}}>
+Property purchased to serve as the Educational Resource Center.
+                          </i>
                     </SingleImage>                  
                     
                     <SingleImage>
                         <PostImage src={`${CAINERC2}`} />
-                        <i style={{padding: '1rem 0'}}>Current state of educational resource center after internal renovations and painting.</i>
+                        <i style={{padding: '1rem 0'}}>                        The Educational Resource Center during internal renovations and
+              painting
+                        </i>
+                    </SingleImage>
+                    <SingleImage>
+                        <PostImage src={`${CAINERC3}`} />
+                        <i style={{ padding: "1rem 0" }}>
+Current state of the Educational Resource Center after internal
+              renovations and painting.
+                        </i>
                     </SingleImage>
                 </MediaWrapper>
             </OverallWrapper>

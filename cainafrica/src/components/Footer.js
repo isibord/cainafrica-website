@@ -70,12 +70,12 @@ const Logo = styled.img`
         display:none;
     }
 `
-const OrgType = styled.p`
-    @media (max-width: 768px) {
-        margin: auto;
-        width: 90%
-    }
-`
+// const OrgType = styled.p`
+//     @media (max-width: 768px) {
+//         margin: auto;
+//         width: 90%
+//     }
+// `
 
 const Footer = () => {
 
@@ -84,43 +84,72 @@ const Footer = () => {
             <InnerFooterBox>
                 <MailBox>
                     <h2>CONTACT US</h2>
-                    <p>cainafrica@gmail.com</p>
-                    <p>Subscribe to our 
-                        <strong><a href="http://eepurl.com/dyu7RL" target="_blank"  rel="noopener noreferrer" style={{textDecoration:"none"}} > Newsletter here</a></strong> 
-                    </p>
-                </MailBox>
-
-                <LogoBox>
-                    <Logo src={CainWhiteLogo} alt="Cain logo"/>
-                    
-                    <InlineFollowButtons       //From sharethis-reactjs Library
+                     <p style={{ marginTop: 0, marginBottom: "8px" }}>info@cainafrica.org</p>
+                     <p style={{ marginTop: 0, marginBottom: "8px" }}>+2347049879535</p>
+                     <div className="social-icons" style={{ display: 'flex', alignItems: "center"}}> 
+                    <InlineFollowButtons //From sharethis-reactjs Library
                         config={{
                         action: 'Follow us:', // call to action (STRING)
-                        action_enable: false,  // show/hide call to action (true, false)
+                        action_enable: false, // show/hide call to action (true, false)
                         action_pos: 'bottom', // position of call to action (left, top, right)
-                        alignment: 'center',  // alignment of buttons (left, center, right)
-                        color: 'social',       // set the color of buttons (social, white)
-                        enabled: true,        // show/hide buttons (true, false)
-                        networks: [           // which networks to include (see FOLLOW NETWORKS)
+                        color: 'social', // set the color of buttons (social, white)
+                        enabled: true, // show/hide buttons (true, false)
+                        // alignment: "",
+                        networks: [
+                            // which networks to include (see FOLLOW NETWORKS)
                             'twitter',
                             'facebook',
                             'instagram',
                             'linkedin',
-                            'youtube'
+                            'youtube',
+                            'vk',
                         ],
-                        padding: 8,           // padding within buttons (INTEGER)
-                        profiles: {           // social profile links for buttons
+                        padding: 8, // padding within buttons (INTEGER)
+                        profiles: {
+                            // social profile links for buttons
                             twitter: 'cainafrica',
                             facebook: 'cainafrica',
                             instagram: 'cainafrica',
                             linkedin: 'company/catering-to-africans-in-need/',
-                            youtube: '/channel/UCFI55OCmrLlN28M5wDPBNxQ'
+                            youtube: '/channel/UCFI55OCmrLlN28M5wDPBNxQ',
+                            vk: 'placeholder',
                         },
-                        radius: 15,            // the corner radius on each button (INTEGER)
-                        size: 32,             // the size of each button (INTEGER)
-                        spacing: 12            // the spacing between buttons (INTEGER)
-                    }}
+                        radius: 15, // the corner radius on each button (INTEGER)
+                        size: 32, // the size of each button (INTEGER)
+                        spacing: 5, // the spacing between buttons (INTEGER)
+                        }}
                     />
+            <a href='https://api.whatsapp.com/send?phone=2347049879535'>
+              <img
+                src='https://img.icons8.com/color/35/000000/whatsapp--v1.png'
+                style={{ cursor: 'pointer' }}
+                alt='whatsapp-icon'
+              />
+            </a>
+                    </div>
+                    <p style={{ marginBottom: 0 }}>Subscribe to our<strong>
+                        <a
+                            href='http://eepurl.com/dyu7RL'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            style={{ textDecoration: 'none' }}
+                        >
+                            Newsletter here
+                        </a>
+                        </strong>
+                    </p>
+                </MailBox>
+
+                <LogoBox style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                }}>
+                    <Logo src={CainWhiteLogo} alt='Cain logo'/>
+                     <strong>
+                        CAIN (Catering to Africans In Need) is a 501(c)(3) non-profit
+                        organization
+                    </strong>
                 </LogoBox>
 
                 <LocationBox>
@@ -134,7 +163,6 @@ const Footer = () => {
                     </p>
                 </LocationBox>
             </InnerFooterBox>
-            <OrgType> <strong>CAIN (Catering to Africans In Need) is a 501(c)(3) non-profit organization</strong></OrgType>
         </FooterBox>
     )
 }
