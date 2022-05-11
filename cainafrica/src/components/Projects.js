@@ -79,7 +79,7 @@ const Projects = (props) => {
                 {props.sideDrawer}
                 <TextWrapper style={{}}>
                     <TopHeaderText>PROJECTS</TopHeaderText>
-                    <TopParaText>“SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM THE WORLD.” — HOWARD ZINN</TopParaText>
+                    <TopParaText>“SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM THE WORLD.”  —  HOWARD ZINN</TopParaText>
                     
                 </TextWrapper>
             </TopImage>

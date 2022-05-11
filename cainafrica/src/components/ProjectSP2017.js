@@ -1,9 +1,10 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage, PostIframe, PostIframeWrapper} from './StyledComponents.js';
-import CAINSP20172 from '../images/ProjectsData/CAINSP20172.JPG';
+import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
 import summerImage2 from "../images/Tutorial/FNS.jpg";
+import Image1 from "../images/Gallery/TUTORIAL PROGRAM/T (2).jpg"
+import Image2 from "../images/Gallery/TUTORIAL PROGRAM/T (3).jpg"
 
 
 const ProjectSP2017 = (props) => {
@@ -22,50 +23,43 @@ const ProjectSP2017 = (props) => {
 
             <OverallWrapper>
                 <PostWrapper>
-                    <PostHeader>CAIN Weekly Tutorial Program</PostHeader>
+                    <PostHeader>CAIN Daily Tutorial Program</PostHeader>
                     <PostParagraph> 
-              CAIN Summer Tutorial Program is one of the key areas of intervention
-            of the CAIN Scholars' Program, which is aimed at helping children
-            from low-income families in Ikotun/Igando local government area gain
-            access to quality educational resources, educational enhancement
-            programs and equip them with skills to become globally competitive.
-            When this programme was launched in August 2017, our tutors utilized
-            very creative methods of teaching to aid better comprehension. For
-            example, students learned songs to help them solve everyday
-            mathematics problems such as multiplication and division. Students
-            also received mathematical names like zainumeral, which they loved
-            so much, and to our surprise, even students who disliked mathematics
-            indicated that they could attend our mathematics class all day long.
-            Similar creativity was applied to teach the other subjects. Students
-            also learned about manners and how to make use of the five magic
-            words in their daily interactions.
-            <br></br>
-            <br></br> A revamped format of this program is currently ongoing at
-            our resource center and it involves four highly qualified tutors
-            taking one hundred and twenty J.S.S.1 to S.S.S.3 students (20
-            students from each class) in Mathematics and English lessons. The
-            lessons take place every Monday to Saturday from 3pm to 6pm. In
-            addition, extra attention is given to J.S.S.3 and S.S.S.3 students
-            to adequately prepare them for external examinations. Like all our
-            programs, this program is free so students aren’t charged any fees
-            to participate. 
-
+                        The CAIN Daily Tutorial Program is one of our key areas of intervention which aims to help children from low-income families in the Ikotun/Igando area gain access to high-quality educational resources, introduce them to educational enhancement programs, and equip them with the skills they need to be globally competitive.
+                        <br/><br/>
+                        Our tutors have used a variety of innovative teaching strategies to aid improved comprehension since the program began in August 2017. Students, for example, learned songs to assist them in solving basic math problems such as multiplication and division. 
+                        <br/><br/>
+                        Our teachers are also personable, and they work hard to ensure that our pupils have a pleasant learning atmosphere. Students now enjoy every bit of their study to the point where even students who despised mathematics now diligently attend our Mathematics classes, and are doing better with numbers than they were before they enrolled at the tutorials.
+                        Other disciplines were also taught using a similar innovative way. At the CAIN Educational Resource Center, students are having a great time learning. Etiquette and good manners are also taught, assisting pupils with their intellectual and social growth. We are producing bright and responsible children who will grow up to be leaders of the better tomorrow that we all hope for.
+                        <br/><br/>
+                        Four highly competent tutors are teaching Mathematics and English to a total of 120 J.S.S.1 to S.S.S.3 students (20 students from each class). Lessons are held every Monday through Friday from 3:45pm to 6 p.m, and on Saturdays, 10am - 12:30pm. In addition, J.S.S.3 and S.S.S.3 pupils receive particular attention in order to appropriately prepare them for external examinations.
+                        In addition, J.S.S.3 and S.S.S.3 pupils receive particular attention in order to appropriately prepare them for external examinations.
+                        <br/><br/>
+                        This program, as well as our other programs, is free to all students. There are no fees for the pupils to participate. Will you join us as a partner? One child at a time, we will work together to create a brighter future.
+                        <br/><br/>
                     </PostParagraph>                
                 </PostWrapper>
 
                 <MediaWrapper>
                 {/* style={{paddingLeft:"1rem"}} */}
-                    <PostIframeWrapper>
+                    {/* <PostIframeWrapper>
                         <PostIframe  width="520" height="315" src="https://www.youtube.com/embed/pvpD_hIAqrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
-                    </PostIframeWrapper>
+                    </PostIframeWrapper> */}
                     <SingleImage>
-                        <PostImage src={`${CAINSP20172}`} />
-                        <i style={{padding: '1rem 0'}}>CAIN Tutorial Class at its inception in 2017</i>
+                        <PostImage src={`${Image2}`} />
+                        <i style={{padding: '1rem 0'}}>
+                            Group discussion at the tutorial class
+                            </i>
+                    </SingleImage>
+                    <SingleImage>
+                        <PostImage src={`${Image1}`} />
+                        <i style={{padding: '1rem 0'}}>
+                            Students at the tutorial class</i>
                     </SingleImage>
                     <SingleImage>
                         <PostImage src={`${summerImage2}`} />
                         <i style={{ padding: "1rem 0" }}>
-                        Students and Tutors from the CAIN Weekly Tutorial Program.
+                        Students taking instructions from their tutor
                         </i>
                     </SingleImage>
                 </MediaWrapper>

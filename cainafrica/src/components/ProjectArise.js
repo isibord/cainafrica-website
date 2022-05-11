@@ -21,9 +21,19 @@ const ProjectArise = (props) => {
             <OverallWrapper>
                 <PostWrapper>
                     <PostHeader>ARISE (Allocating Resources to Improve School Experience) </PostHeader>
-                    <PostParagraph>In the past two years, the ARISE project has helped transform the learning experiences of over three hundred students in Ijegun Community primary school 1.  About two hundred textbooks in the major subjects — Mathematics and English— have been donated to the school. With a better foundation being developed in these subjects, the students attain a greater chance of achieving higher academic goals as most standardized examinations test students’ ability to solve problems analytically and to communicate effectively. New whiteboards have also been mounted in all the classrooms, including supplies of board markers and board erasers to facilitate the lecturing process. In the same vein, over nine hundred and fifty notebooks, including 28 dozens of pencils, and over two hundred pencil erasers have been donated. <br/> <br/>
-                    Upon our arrival at the school’s location, a school official pleaded with us to provide stationery for the children as many of them were without these necessary tools for learning. It is no surprise to see how taking notes has greatly enhanced the students’ learning capabilities. We plan to continue effecting positive changes by building an educational resource center in the community, which provides students in all of Ijegun with access to more educational resources. By focusing on Ijegun Community Primary 1, we have only improved the quality of education for the number of students in attendance — a small percentage of the total number of students receiving substandard education in the community. Hence, an educational center in the community will immensely increase the number of students in these poor circumstances, who will have access to vast educational resources.
-                    
+                    <PostParagraph>
+                        In the last two years, over 300 children at Ijegun Community Primary School 1, have had their learning experiences transformed by the ARISE project. The school has received about 200 textbooks in the major subjects of Mathematics and English. 
+                        <br /><br />
+                        CAIN Educational and Medical Foundation has been successful in providing these students with a stronger foundation in both subjects. Because most standardized examinations measure students' capacity to solve problems analytically and communicate effectively, we have bridged the gap between students and their possibilities of obtaining greater academic goals.
+                        <br /><br />
+                        To improve the students' learning experiences and facilitate the teachers' teaching process, new whiteboards have been installed in all of the classrooms, together with the supply of board markers and board cleaners.
+                        <br /><br />
+                        In a similar vein, over 950 notebooks, 28 dozen pencils, and over 200 pencil erasers have been provided, much to the delight of these youngsters, their teachers, and their parents.
+                        <br /><br />
+                        When we arrived at the school, a school official pleaded with us to provide stationery for the students as many of them lacked these essential study tools. We gladly offered this assistance, and it was gratifying to see how taking notes improved the pupils' learning capacities.
+                        <br /><br />
+                        CAIN Educational & Medical Foundation has taken things a step further in fostering positive changes in the community's educational system by establishing an Educational Resource Center in Ikotun. This will provide better educational opportunities to students around Ikotun-Ijegun.
+                        <br /><br />
                     </PostParagraph>
                 </PostWrapper>
 

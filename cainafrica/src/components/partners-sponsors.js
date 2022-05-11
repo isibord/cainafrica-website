@@ -10,28 +10,30 @@ import {
   KeyDiv,
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
-import sp1 from "../images/PS/CLINTON GLOBAL INITIATIVE UNIVERSITY.jpg";
-import sp2 from "../images/PS/CORNELL UNIVERSITY.png";
-import sp3 from "../images/PS/DAVIS PROJECT FOR PEACE.png";
-import sp5 from "../images/PS/crossbonds.jpg";
-import sp6 from "../images/PS/MICROSOFT.jpg";
+import sp1 from "../images/PS/Metanoia Africa.png";
+import sp2 from "../images/PS/Cornell University.jpg";
+import sp3 from "../images/PS/Davis Project for Peace.png";
+import sp5 from "../images/PS/Bookcraft-logo.png";
+import sp6 from "../images/PS/crossbonds.jpg";
 
 const PartenersSponsorsData = [
   {
-    index: 1, //These should be incremental from the last interger
-    image: `${sp1}`,
+    index: 1,
+    image: `${sp5}`,
   },
+
+
   {
     index: 2,
-    image: `${sp2}`,
-  },
-  {
-    index: 3,
     image: `${sp3}`,
   },
   {
-    index: 5,
-    image: `${sp5}`,
+    index: 3, //These should be incremental from the last interger
+    image: `${sp1}`,
+  },
+  {
+    index: 4,
+    image: `${sp2}`,
   },
   {
     index: 6,
@@ -44,7 +46,7 @@ const SponsorsImage = styled.img`
   border-radius: 0.8rem;
   width: auto;
   max-width: 20rem;
-  height: 10rem;
+  height: 8rem;
   padding: 2rem;
   @media (max-width: 320px) {
     margin: 0rem;
@@ -77,8 +79,7 @@ const PartnersSponsors = (props) => {
         <TextWrapper style={{}}>
           <TopHeaderText>Partners & Sponsors</TopHeaderText>
           <TopParaText>
-            “SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM
-            THE WORLD.” — HOWARD ZINN
+            “ALONE WE CAN DO SO LITTLE; TOGETHER WE CAN DO SO MUCH.” — HELEN KELLER 
           </TopParaText>
         </TextWrapper>
       </TopImage>
