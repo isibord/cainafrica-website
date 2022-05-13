@@ -9,12 +9,14 @@ import {
   PostWrapper,
   PostHeader,
   PostParagraph,
-  PostImage,
   MediaWrapper,
+  PostIframe,
+  PostIframeWrapper,
   SingleImage,
+  PostImage
 } from "./StyledComponents.js";
-import CHRISTMAS1 from "../images/christmas/IMG4.jpg";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
+import Image1 from "../images/christmas/Christmas.jpg";
 
 const ProjectChris = (props) => {
   return (
@@ -40,26 +42,49 @@ const ProjectChris = (props) => {
         <PostWrapper>
           <PostHeader>Christmas Benevolence Project </PostHeader>
           <PostParagraph>
+            This effort arose from our desire to assist and support the
+            community's less privileged people over the Christmas holiday
+            season. It's a CAIN Educational and Medical Foundation charity
+            initiative aimed at providing food and other gifts to destitute
+            families during the Christmas season.
             <br />
-            This is an initiative born out of our desire to help and support
-            the less priviledged members of the community during the Christmas
-            festive season. It's a benevolence project aimed at providing food
-            and other gift items to indigent families during Christmas. The
-            maiden edition of this program took place in December 2020 and it
-            was tagged The 50/50 Campaign. Donors were invited to participate by
-            donating up to $50 to support 50 families with food items and
-            Covid-19 sanitary materials. The programme was well planned and
-            implemented and beneficiaries were carefully selected from the
-            Ikotun/Igando community based on certain socio-economic
-            vulnerability indicators. The program was a huge success as all the
-            50 target beneficiaries were reached and immensely supported. Like
-            some of our key programs, our aim is to make this an annual event.
+            <br />
+            The first edition of this program, dubbed "The 50/50 Campaign", took
+            place in December 2020, and was followed by another hugely
+            successful edition in December 2021. Donors were encouraged to
+            donate up to $50 to help feed 50 families with food and Covid-19
+            sanitary products.
+            <br />
+            <br />
+            The initiative was well-thought-out and executed, with recipients
+            carefully chosen from the Ikotun/Igando community based on
+            socioeconomic vulnerability indicators. The event took place at our
+            Educational Resource Centre in Ikotun. It was a fantastic success
+            because all 50 of the target beneficiaries were reached and greatly
+            aided.
+            <br />
+            <br />
+            Our goal is to make this an annual event, similar to our other
+            significant programs. We also hope to see you at future editions,
+            where we hope to brighten the faces of 50 families once more.
+            <br />
+            <br />
           </PostParagraph>
         </PostWrapper>
 
         <MediaWrapper>
-          <SingleImage>
-            <PostImage src={`${CHRISTMAS1}`} />
+         
+          <PostIframeWrapper>
+            <PostIframe
+              width="520"
+              height="315"
+              src="https://www.youtube.com/embed/u84WXflC2cY"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+            ></PostIframe>
+          </PostIframeWrapper>
+         <SingleImage>
+            <PostImage src={`${Image1}`} />
           </SingleImage>
         </MediaWrapper>
       </OverallWrapper>

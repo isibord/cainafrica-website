@@ -4,7 +4,7 @@ import './App.css';
 
 //Displayed components
 import Home from './components/Home';
-import OurMission from './components/OurMission';
+import WhoWeAre from './components/WhoWeAre';
 import Projects from './components/Projects';
 import MeetTheTeam from './components/ExecutiveTeam';
 import OurMembers from './components/OurMembers';
@@ -18,11 +18,18 @@ import ProjectERC from './components/ProjectERC';
 import ProjectSP2017 from './components/ProjectSP2017';
 import ProjectASRP2019 from './components/ProjectASRP2019';
 import ProjectChristmas from "./components/ProjectChris";
-// import PartnersSponsors from "./components/partners-sponsors";
+import PartnersSponsors from "./components/partners-sponsors";
+import GalleryAkaeze from "./components/GalleryAkaeze"
+import GalleryJeida from "./components/GalleryJeida"
+import GalleryChristmas from "./components/GalleryChristmas"
+import GalleryTutorial from "./components/GalleryTutorial"
+import GalleryLibrary from "./components/GalleryLibrary"
+import GalleryCareer from "./components/GalleryCareer"
 
 import DonateParent from './components/DonateParent';
 
 import SideDrawer from './components/SideDrawer/SideDrawer.js';
+import CareerEnrichmentProgram from './components/CareerEnrichment';
 
 
 
@@ -57,8 +64,8 @@ const App = () => {
             render = {(props)=> <Home {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route 
-            path='/mission' 
-            render = {(props)=> <OurMission {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+            path='/who-we-are' 
+            render = {(props)=> <WhoWeAre {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
             path='/projects/project-arise' 
@@ -80,6 +87,10 @@ const App = () => {
             path='/projects/Akaeze-Summer-Program' 
             render = {(props)=> <ProjectASRP2019 {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
+          <Route 
+            path='/projects/career-enrichment-program' 
+            render = {(props)=> <CareerEnrichmentProgram {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
           <Route
             path="/projects/Christmas-Benevolence-Project"
             render={(props) => (
@@ -91,12 +102,43 @@ const App = () => {
             )}
           />
           <Route 
+            path='/gallery/Akaeze-Summer-Program' 
+            exact
+            render = {(props)=> <GalleryAkaeze {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route 
+            path='/gallery/Jeida-Clinic' 
+            exact
+            render = {(props)=> <GalleryJeida {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route 
+            path='/gallery/library' 
+            exact
+            render = {(props)=> <GalleryLibrary {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route 
+            path='/gallery/Christmas' 
+            exact
+            render = {(props)=> <GalleryChristmas {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route 
+            path='/gallery/Tutorial' 
+            exact
+            render = {(props)=> <GalleryTutorial {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+         <Route 
+            path='/gallery/career' 
+            exact
+            render = {(props)=> <GalleryCareer {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route 
             path='/projects' 
             render = {(props)=> <Projects {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
             path='/executiveboard' 
             render = {(props)=> <MeetTheTeam {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+            exact
           />
           <Route 
             path='/ourmembers' 
@@ -118,7 +160,7 @@ const App = () => {
             path='/donate' 
             render = {(props)=> <DonateParent {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
-          {/* <Route
+          <Route
             path="/partners-sponsors"
             render={(props) => (
               <PartnersSponsors
@@ -127,7 +169,7 @@ const App = () => {
                 sideDrawer={sideDrawer}
               />
             )}
-          /> */}
+          /> 
           <Route path='/' 
             render = {(props)=> <Home {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />

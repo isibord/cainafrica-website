@@ -49,7 +49,9 @@ const Home = (props) => {
                 <TextWrapper>
                     <TopHeaderText>CATERING TO AFRICANS IN NEED</TopHeaderText>
                     
-                    <TopParaText> WE ARE YOUNG PEOPLE TAKING INITIATIVE TO IMPROVE HEALTHCARE AND EDUCATION IN AFRICA</TopParaText>                    
+                    <TopParaText> 
+                       TAKING INITIATIVE TO IMPROVE HEALTHCARE AND EDUCATION IN AFRICA 
+                    </TopParaText>                    
                 </TextWrapper>
                 
             </TopImage>
